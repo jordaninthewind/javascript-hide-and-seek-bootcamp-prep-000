@@ -21,7 +21,4 @@ function deepestChild(){
   const last = document.getElementById('grand-node').querySelectorAll('div');
   var inc = last.length;
   return last[inc].textContent;
-    
-  }
-  return last;
 }
