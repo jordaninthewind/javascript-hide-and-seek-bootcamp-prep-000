@@ -22,7 +22,7 @@ function deepestChild(){
   return last[length - 1];
   // for (let i = 0; i < last.length; i++) {
     // pull out most deeply nested child from div#grand-node
-    
+
     // iterate over elements & call querySelector and querySelectorAll
 
   }
