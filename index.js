@@ -24,7 +24,4 @@ function deepestChild(){
     // pull out most deeply nested child from div#grand-node
 
     // iterate over elements & call querySelector and querySelectorAll
-
-  }
-  return last.textContent;
 }
