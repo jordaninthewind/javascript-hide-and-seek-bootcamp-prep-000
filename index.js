@@ -9,16 +9,11 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  // var index = document.querySelectorAll('ul.ranked-list li');
-  //   for (let i = 0; i < index.length; i++) {
-  //     var int = parseInt(index[i], 10);
-  //     index[i].innerHTML = int + n;
-  //   }
-  const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
-    for (let i = 0; i < lis.length; i++) {
-      var val = parseInt(lis[i], 10);
-      lis[i].innerHTML = (val + n).toString();
-  }
+  const index = document.getElementById('app');querySelectorAll('ul.ranked-list li');
+    for (let i = 0; i < index.length; i++) {
+      var int = parseInt(index[i], 10);
+      index[i].innerHTML = int + n;
+    }
 }
 
 
